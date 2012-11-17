@@ -9,5 +9,6 @@ Usage:
     helpers 是放在 LIVE_MEDIA_PATH 下面的。
 
 Grub.cfg:
+
     linux /boot/Ubuntu/vmlinuz boot=casper locale=zh_CN.UTF-8 copy-on-write-path=/copy-on-write live-media-path=/boot/Ubuntu # quiet splash --
     initrd  /boot/Ubuntu/initrd.lz
